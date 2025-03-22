@@ -14,17 +14,14 @@ body {
     background-color: var(--bg-left);
     width: 40%;
     display: flex;
-    justify-content: flex-end; /* ✅ push card to the right edge */
+    justify-content: flex-end; /* push card toward the split */
     align-items: center;
-    padding-right: 0; /* spacing between card and edge */
+    padding-right: 2rem;
     position: relative;
-  }  
+  }
 
   .card {
-    position: absolute;
-    left: 40vw;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(20%);
   }
   
   
