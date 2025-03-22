@@ -11,18 +11,17 @@ body {
   }
   
   .left {
-    background-color: #2e2d5a;
-    flex: 1;
+    background-color: var(--bg-left);
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* ✅ push card to the right edge */
     align-items: center;
-    padding: 3rem;
-  }
+    padding-right: 2rem; /* spacing between card and edge */
+  }  
 
   .card {
     width: 280px;
     background-color: #1c1a40;
-    text-align: center;
     padding: 2.5rem 0 0;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
