@@ -14,18 +14,15 @@ body {
     background-color: var(--bg-left);
     width: 40%;
     display: flex;
-    justify-content: flex-end; /* push card toward the split */
+    justify-content: flex-end;
     align-items: center;
-    padding-right: 2rem;
+    padding-right: 3rem; /* Adjust to taste */
     position: relative;
   }
-
+  
   .card {
-    transform: translateX(20%);
+    margin-right: -150px; /* Half the width of your card (assumed ~300px) */
   }
-  
-  
-  
   
   .social-bar {
     background-color: #1a1a1a;
